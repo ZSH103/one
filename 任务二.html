@@ -7,7 +7,7 @@
     body{background:#dfddddec}
     p{text-indent:2em;}
     aside{text-align:center;}
-    .box 
+    header 
     {
         height:60px;
         background:#2e2d2d;
@@ -16,18 +16,27 @@
         align-items: center;
     }
     .box1 {background:#ffffff;}
+    footer
+    {
+        height:60px;
+        color:#ffffff;
+        background:#2e2d2d;
+        display: flex; 
+        justify-content: center;  
+        align-items: center;
+    }
     .first{color:#ffffff;}
     
 </style>
 </head>
 
 <body>
-    <div class="box">
+    <header>
         <li><a href="#" title="导航链接一" class="first">导航链接一</a> </li>
         <li><a href="#" title="导航链接二" class="first">导航链接二</a></li>
         <li><a href="#" title="导航链接三" class="first">导航链接三</a></li>
         <li><a href="#" title="导航链接四" class="first">导航链接四</a></li>
-    </div>
+    </header>
 
    
     <div class="box1">
@@ -188,7 +197,11 @@
             <textarea cols="50" rows="10" >在这里输入内容...</textarea>
             <input   type="submit"   value="提交">
         </aside>
-    </div>   
+    </div> 
+    
+    <footer>
+        版权所有
+    </footer>
 </body>
 
 </html>
