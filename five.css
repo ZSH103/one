@@ -1,0 +1,39 @@
+body{background:#dfddddec}
+    p{text-indent:2em;}
+    aside
+    {
+        text-align:center;
+    }
+    header 
+    {
+        height:60px;
+        background:#2e2d2d;
+        display: flex; 
+        justify-content: flex-end;  
+        align-items: center;
+    }
+    .box1 
+    {
+        background:#ffffff;
+        width:60%;
+    }
+    .box2
+    {
+        width: 38%;
+        background:#ffffff;
+        float: right;
+        position:relative;
+        top:20px;
+    }
+    footer
+    {
+        height:60px;
+        color:#ffffff;
+        background:#2e2d2d;
+        position:relative;
+        top:20px;
+        display: flex; 
+        justify-content: center;  
+        align-items: center;
+    }
+    .first{color:#ffffff;}
