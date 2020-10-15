@@ -1,0 +1,93 @@
+table{margin-left: 10px;}
+.box1
+{
+    background-color: black;
+    color: white;
+}
+.box2{color:red;}
+.box3{background-color: #999;}
+input
+{
+    width:250px;
+    height:30px;
+    margin-top:20px;
+    transition:width 2s;
+}
+input:focus{width:400px;}
+.box4
+{
+    position: relative;
+    width:400px;
+    height: 200px;
+    margin-top:20px;
+    overflow: hidden;
+}
+.box5
+{
+    position:absolute;
+    width:1200px;
+    height:200px;
+    left: 0;
+    animation: myfirst linear 10s infinite;
+}
+@keyframes myfirst
+{
+    0%{left:0;}
+    30%{left:0;}
+    35%{left:-400px;}
+    65%{left:-400px;}
+    70%{left:-800px;}
+    95%{left:-800px;}
+    100%{left:0;}
+}
+.box6
+{
+    position:absolute;
+    display: inline-block;
+    width:400px;
+    height:200px;
+}
+#one
+{
+    background-color: limegreen;
+    left:0;
+}
+#two
+{
+    background-color: mediumorchid;
+    left:400px;
+}
+#three
+{
+    background-color: mediumturquoise;
+    left:800px;
+}
+.tag
+{
+    display: inline-block;
+    width:30px;
+    height: 30px;
+    margin:0;
+    position: relative;
+    top:-30px;
+    left: 294px;
+    background-color: rgba(0,0,0,0.5);
+    color:white;
+    line-height:30px;
+    text-align: center;
+}
+.tag1:target
+{
+    left:0;
+    animation: .1s 1; 
+}
+.tag2:target
+{
+    left:0;
+    animation: .1s 1; 
+}
+.tag3:target
+{
+    left:0;
+    animation: .1s 1; 
+}
