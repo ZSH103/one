@@ -4,7 +4,8 @@
     width:100%;
     padding:10px;
 }
-.row:before, .row:after
+.row:before,
+.row:after
 {
     content:"";
     display:table;
