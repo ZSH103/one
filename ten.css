@@ -1,0 +1,48 @@
+.box
+{
+    display:flex;
+    padding: 20px;
+    flex-flow:wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.first
+{
+    width:150px;
+    height:120px;
+    margin:20px;
+    border: 1px  solid #f00;
+}
+.second
+{
+    width:150px;
+    height:100px;
+    margin:20px;
+    border: 1px  solid #f00;
+}
+.third
+{
+    width:150px;
+    height:40px;
+    margin:20px;
+    border: 1px  solid #f00;
+}
+.fourth
+{
+    width:150px;
+    height:200px;
+    margin:20px;
+    border: 1px  solid #0f0;
+}
+@media (max-width:640px)
+{
+    .box
+    {
+      width: 100%;
+      padding: 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .fourth{order:-2;}
+}
