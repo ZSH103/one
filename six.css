@@ -1,0 +1,401 @@
+body
+{
+    background-color: slategrey;
+    display: flex;
+    justify-content: center;
+}
+.all
+{
+    width:980px;
+    height:1386px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+}
+.first
+{
+    width:892px;
+    height:61px;
+    border-bottom: 2px solid #938e8c;
+    display:flex;
+    justify-content:space-between;
+}
+.first-one
+{
+    width:110px;
+    height:61px;
+    padding-left: 5px;
+    font-family: "黑体";
+    background-color: rgb(238, 54, 54);
+    color:#ffffff;
+    font-size: 12px;
+    display:flex;
+    align-items: flex-end;
+    float:left;
+}
+.first-two
+{
+    font-size:12px;
+    color:#d45d5c;
+    font-family: "黑体";
+    float: right;
+    align-self: flex-end;
+}
+.second
+{
+    position: absolute;
+    margin-top:81px;
+    width: 892px;
+}
+.second-one
+{
+    background-size: 641px 301px;
+    display: flex;
+    justify-content: space-between;
+}
+.second-one img
+{
+    width: 641px;
+    height: 301px;
+}
+.second-one-left
+{
+    width: 191px;
+    height: 301px;
+    background-color:rgb(169, 250, 169,0.5);
+    position: absolute;
+    left:0px;
+}
+.second-one-right
+{
+    width: 191px;
+    height: 301px;
+    background-color:rgb(248, 185, 185,0.5);
+    position: absolute;
+    left:450px;
+}
+.second-two
+{ 
+    width:203px;
+    height: 301px;
+    border-top: 2px solid #cc8091;
+    float: right;
+    position: relative;
+    bottom:301px;
+}
+.d1 span
+{
+    font-size: 24px;
+    font-weight: bold;
+}
+.d1-1
+{
+    width:75px;
+    font-size: 20px;
+    font-family: "微软雅黑";
+    border-bottom: 2px solid #000000;
+}
+.d1-2
+{
+    width:140px;
+    font-size: 20px;
+    font-family: "微软雅黑";
+    border-bottom: 2px solid #000000;
+}
+.d2
+{
+    font-size:12px;
+    color:#676767;
+    font-family: "楷体";
+    line-height: 10px;
+    padding-top: 5px;
+}
+.d3
+{
+    font-size: 116px;
+    color:#75b86b;
+    font-family: "微软雅黑";
+    font-style: oblique;
+    font-weight: bold;
+    padding-top: 15px;
+    position: relative;
+    right:22px;
+}
+.d4
+{
+    position: relative;
+    bottom:10px;
+}
+.d4-1
+{
+    font-size: 55px;
+    color:#cc8091;
+    font-family: "微软雅黑";
+    float:left;
+}
+.d4-2
+{
+    font-size: 12px;
+    color: #cc8091;
+    font-family: "微软雅黑";
+    position: relative;
+    top:10px;
+}
+.d4-2 span
+{
+    font-size: 21px;
+    position: relative;
+    top:18px;
+}
+.second-three
+{
+    width:641px;
+}
+.s1
+{
+    width:190px;
+    padding-top: 20px;
+    float: left;
+}
+.s1-1
+{
+    font-size: 16px;
+    color:#418c59;
+    font-family: "微软雅黑";
+    font-weight: bold;
+    text-decoration:underline #418c59;
+}
+.s1-2
+{
+    font-size: 12px;
+    padding-top: 10px;
+    color:#767777;
+    font-family: "宋体";
+    line-height: 16px;
+}
+.s2
+{
+    width:190px;
+    padding-left: 30px;
+    padding-top: 20px;
+    float: left;
+}
+.s2-1
+{
+    font-size: 16px;
+    color:#d2994f;
+    font-family: "微软雅黑";
+    font-weight: bold;
+    text-decoration:underline #d2994f;
+}
+.s2-2
+{
+    font-size: 12px;
+    padding-top: 10px;
+    color:#231816;
+    font-family: "微软雅黑";
+    line-height: 16px;
+}
+.s3
+{
+    width:190px;
+    padding-left: 30px;
+    padding-top: 20px;
+    float: left;
+}
+.s3-1
+{
+    font-size: 16px;
+    color:#cc7680;
+    font-family: "微软雅黑";
+    font-weight: bold;
+    text-decoration:underline #cc7680;
+}
+.s3-2
+{
+    font-size: 12px;
+    padding-top: 10px;
+    color:#231816;
+    font-family: "微软雅黑";
+    line-height: 16px;
+}
+.s3-3
+{
+    font-size: 12px;
+    color:#231816;
+    font-family: "微软雅黑";
+    line-height: 16px;
+    padding-top: 80px;
+}
+.s3-3 span
+{
+    color:#cd4a48;
+    font-style: oblique;
+}
+.third
+{
+    width: 892px;
+    position: absolute;
+    right:310px;
+    top:700px;
+    border-bottom: 1px solid #938e8c
+}
+.third-one
+{
+    width:415px;
+    float: left;
+}
+.t1
+{
+    font-size: 42px;
+    color: #11456b;
+    font-family: "黑体";
+    font-weight: bold;
+    border-bottom: 2px solid #11456b;
+}
+.t1 span
+{
+    font-size: 72px;
+    color:#f5e327;
+    font-style: oblique;
+}
+.t2
+{
+    padding-top: 30px;
+    font-size: 12px;
+    color:#767777;
+    font-family: "宋体";
+    line-height: 16px;
+}
+.t2 span
+{
+    font-size: 70px;
+    color: #f5e327;
+    font-family: "微软雅黑";
+}
+.t2 img
+{
+    width:200px;
+    height:200px;
+    float: right;
+}
+.third-two
+{
+    position: absolute;
+    left:435px;
+}
+.third-two img
+{
+    width:458px;
+    height:275px;
+}
+.third-two-bottom
+{
+    width: 458px;
+    height: 61px;
+    background-color:rgba(89, 112, 89, 0.5);
+    position: absolute;
+    top:214px;
+}
+.third-two-word
+{
+    font-size: 26px;
+    color:#ffffff;
+    font-family: "微软雅黑";
+    padding-left: 50px;
+    margin-left: 70px;
+    width: 385px;
+    height: 44px;
+    display: flex;
+    align-items: center;
+    border-left: 3px solid #72b16a;
+}
+.third-two-word span
+{
+    font-size: 12px;
+    color: #72b26b;
+    font-style: oblique;
+    letter-spacing: 140%;
+}
+.third-three
+{
+    width:458px;
+    height:318px;
+    background-color: #f0e99f;
+    margin-top:20px;
+}
+.r1
+{
+    padding-top: 20px;
+    padding-left: 100px;
+    font-size: 16px;
+    font-family: "宋体";
+    color:#5a5b5b;
+    line-height: 20px;
+}
+.r1 span
+{
+    font-size: 12px;
+    font-style: oblique;
+}
+.r2
+{
+    width:260px;
+    height:160px;
+    background-color: rgb(211, 107, 107);
+    position: absolute;
+    bottom: 0px;
+}
+.r2-1
+{
+    font-size: 110px;
+    color:#ffffff;
+    font-family: "微软雅黑";
+    position: absolute;
+    left:20px;
+}
+.r2-2
+{
+    font-size: 21px;
+    color:#ffffff;
+    font-family: "黑体";
+    font-style: oblique;
+    line-height: 20px;
+    height: 86px;
+    border-left: 2px solid #ffffff;
+    position: absolute;
+    left:90px;
+    bottom: 40px;
+}
+.r2-2 span
+{
+    font-size: 12px;
+    line-height: 4px;
+}
+.r3-1
+{
+    font-size: 72px;
+    color: #d45d5c;
+    position: absolute;
+    left:280px;
+}
+.r3-2
+{
+    width: 260px;
+    height:160px;
+    font-size: 14px;
+    color: #5a5b5b;
+    font-family: "黑体";
+    font-style: oblique;
+    line-height: 16px;
+    position: absolute;
+    left:280px;
+    top:480px;
+}
+.r3-3
+{
+    font-size: 72px;
+    color: #d45d5c;
+    position: absolute;
+    left:280px;
+}
