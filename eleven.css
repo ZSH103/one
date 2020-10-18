@@ -2,14 +2,6 @@ html{font-family: "微软雅黑";}
 @media (min-width: 320px) {html{font-size: 10px; }}
 @media (min-width: 375px) {html{font-size: 16px; }}
 @media (min-width: 440px) {html{font-size: 20px; }}
-.icon
-{ 
-    width: 1em;
-      height: 1em;
-      vertical-align: -0.15em;
-      fill: currentColor;
-      overflow: hidden;
-}
 header 
 {
     width: 100%;
@@ -36,26 +28,13 @@ header div .return
     width: 30%;
     height: 100%;
 }
-header div .return .logo 
-{
-    display: flex;
-    justify-content: flex-end;
-    width: 40%;
-    height: 100%; 
-}
-.icon1
-{
-    right: 30%;
-    width: 100%;
-    height: 100%;
-}
 header div .return .content 
 {
     display: flex;
     justify-content: flex-start;
     align-items: center;
     position: relative;
-    right: 5%;
+    left: 5%;
     width: 65%;
     height: 100%; 
 }
@@ -344,10 +323,7 @@ header div .title
     width: 40%;
     height: 100%;
 }
-.s1-2-1
-{
-    font-size: 1.2rem;
-}
+.s1-2-1{font-size: 1.2rem;}
 .s2
 {
     border-top: 1rem solid gray ;
